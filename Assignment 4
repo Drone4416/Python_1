@@ -1,0 +1,24 @@
+#Useless Trivia modified
+#I added in the if statements to give some small amount of choice
+#and to practice using nested ifs
+
+name = input("Hello, what is your name?")
+age = int(input("How old are you?"))
+weight = float(input("How much do you weigh in pounds?"))
+choice1 = input("May we use this information for our own nefarious purposes?")
+if choice1 == ("yes" or "Yes" or "y" or "Y"):
+    print("Thank You")
+    seconds= age *365 *24*60*60
+    print("You are over ", seconds, "seconds old")
+    kilos= (weight /2.2046)
+    print("So going by the value you gave me earlier you would weigh", kilos,"kilos")
+    print("So,", name,"are you ready to leave")
+    choice2= input("")
+    if choice2 ==("yes" or "Yes" or "y" or "Y"):
+        print("Goodbye")
+    else:
+        print("Too Bad")
+        exit
+else:
+    print("Goodbye")
+    exit
