@@ -1,0 +1,16 @@
+
+
+right_time= 3
+right_channel= Sci-fi
+def main():
+    if (time != right_time):
+        time=right_time #aka wait for the right time
+        else:
+            if(tv_on != True):
+                tv_on=True#turn the tv on
+                else:
+                    if(channel != right_channel):
+                        channel= right_channel#change the channel
+                        else:
+                            end
+        
